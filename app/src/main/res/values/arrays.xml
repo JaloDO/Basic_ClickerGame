@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dificultad">
+        <item>Facil</item>
+        <item>Medio</item>
+        <item>Dificil</item>
+    </string-array>
+
+    <string-array name="idioma">
+        <item>官话</item>
+        <item>Español</item>
+        <item>English</item>
+        <item>हिन्दी</item>
+        <item>العربية</item>
+        <item>Português</item>
+        <item>বাঙালি</item>
+        <item>Pусский</item>
+        <item>日本語</item>
+        <item>ਪੰਜਾਬੀ</item>
+    </string-array>
+
+</resources>

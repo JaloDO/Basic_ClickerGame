@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    tools:context=".GameActivity">
+
+
+    <Chronometer
+        android:id="@+id/crnTiempo"
+        android:layout_width="192dp"
+        android:layout_height="87dp"
+        android:enabled="false"
+        android:gravity="center_horizontal|center_vertical"
+        android:textSize="60dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089">
+
+    </Chronometer>
+
+    <TextView
+        android:id="@+id/txtCountDown"
+        android:layout_width="157dp"
+        android:layout_height="84dp"
+        android:gravity="center_horizontal|top"
+        android:text="3"
+        android:textSize="50sp"
+        app:fontFamily="@font/unlock"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPreGameSpeech"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <TextView
+        android:id="@+id/txtPreGameSpeech"
+        android:layout_width="489dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="36dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="aaaaaaaaaaaaaaaaaa"
+        android:textSize="50sp"
+        app:fontFamily="@font/unlock"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtPuntos"
+        android:layout_width="220dp"
+        android:layout_height="132dp"
+        android:gravity="center"
+        android:shadowColor="@color/colorText_01"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:text="0"
+        android:textColor="@android:color/background_dark"
+        android:textSize="70sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.145" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="315dp"
+        android:layout_height="297dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/btn_neutro"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPuntos"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/txtRango"
+        android:layout_width="283dp"
+        android:layout_height="74dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="28dp"
+        android:text="raaangooo"
+        android:textColor="@color/colorText_01"
+        android:textSize="30dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/txtToque"
+        android:layout_width="156dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginBottom="24dp"
+        android:textSize="30dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
